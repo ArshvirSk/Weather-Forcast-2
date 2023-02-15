@@ -34,15 +34,15 @@ let weather = {
 };
 
 function darkToggle() {
-    console.log("Toggle");
-    var card = document.querySelector(".card");
-    var search = document.querySelector(".search-bar");
-    var button = document.querySelector(".srchbutton");
-    var button1 = document.querySelector(".togglebtn");
-    card.classList.toggle("dark");
-    search.classList.toggle("dark");
-    button.classList.toggle("dark");
-    button1.classList.toggle("dark");
+  console.log("Toggle");
+  var card = document.querySelector(".card");
+  var search = document.querySelector(".search-bar");
+  var button = document.querySelector(".srchbutton");
+  var button1 = document.querySelector(".togglebtn");
+  card.classList.toggle("dark");
+  search.classList.toggle("dark");
+  button.classList.toggle("dark");
+  button1.classList.toggle("dark");
 }
 
 document.querySelector(".search button").addEventListener("click", function () {
